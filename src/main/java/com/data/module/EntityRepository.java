@@ -26,5 +26,5 @@ public interface EntityRepository<E, PK extends Serializable> {
 
     Long count(E example, SingularAttribute<E, ?>... attributes);
 
-    Long countLike(E example, SingularAttribute<E, ?>... attribute
+    Long countLike(E example, SingularAttribute<E, ?>... attributes);
 }
