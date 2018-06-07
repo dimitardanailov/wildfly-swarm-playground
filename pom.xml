@@ -58,6 +58,19 @@
                 <scope>runtime</scope>
             </dependency>
 
+            <!-- Swagger -->
+            <dependency>
+                <groupId>io.swagger.core.v3</groupId>
+                <artifactId>swagger-jaxrs2</artifactId>
+                <version>2.0.0</version>
+            </dependency>
+            <dependency>
+                <groupId>io.swagger.core.v3</groupId>
+                <artifactId>swagger-jaxrs2-servlet-initializer</artifactId>
+                <version>2.0.0</version>
+            </dependency>
+            <!-- Swagger -->
+
         </dependencies>
     </dependencyManagement>
     <dependencies>

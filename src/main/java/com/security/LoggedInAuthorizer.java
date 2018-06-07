@@ -9,8 +9,6 @@ import javax.interceptor.InvocationContext;
 @ApplicationScoped
 public class LoggedInAuthorizer {
 
-    @Secures
-    @UserLoggedIn
     public boolean doSecuredCheck(InvocationContext invocationContext, BeanManager manager, Identity identity) throws Exception
     {
         return identity.reducesOpaquePixels();
