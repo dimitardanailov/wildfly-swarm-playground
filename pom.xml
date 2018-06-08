@@ -71,6 +71,15 @@
             </dependency>
             <!-- Swagger -->
 
+            <!-- https://github.com/eclipse/microprofile-bom/tree/1.3 -->
+            <dependency>
+                <groupId>org.eclipse.microprofile</groupId>
+                <artifactId>microprofile</artifactId>
+                <version>1.3</version>
+                <type>pom</type>
+                <scope>provided</scope>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
     <dependencies>
@@ -93,6 +102,16 @@
             <groupId>javax.enterprise</groupId>
             <artifactId>cdi-api</artifactId>
             <version>1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.microprofile.health</groupId>
+            <artifactId>microprofile-health-api</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.microprofile.metrics</groupId>
+            <artifactId>microprofile-metrics-api</artifactId>
+            <version>1.1</version>
         </dependency>
     </dependencies>
 
